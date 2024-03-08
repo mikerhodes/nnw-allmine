@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>All Mine</string>
+	<key>ThemeIdentifier</key>
+	<string>uk.co.dx13.nnwthemes.allmine</string>
+	<key>CreatorHomePage</key>
+	<string>https://dx13.co.uk/</string>
+	<key>CreatorName</key>
+	<string>Mike Rhodes</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
