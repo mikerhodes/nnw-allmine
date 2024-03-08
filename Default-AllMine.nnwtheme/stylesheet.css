@@ -397,7 +397,8 @@ a.footnote:hover,
 	}
 
 	pre {
-		border: 1px solid var(--secondary-accent-color);
+		border-radius: 5px;
+		background: var(--code-background);
 		padding: 5px;
 	}
 
