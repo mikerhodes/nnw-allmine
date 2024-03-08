@@ -43,6 +43,10 @@ a:hover {
 	--article-title-color: #333;
 	--article-date-color: rgba(0, 0, 0, 0.3);
 	--table-cell-border-color: lightgray;
+	
+	--font-article: "IBM Plex Sans", "Source Sans Pro", -apple-system;
+	--font-mono: "JetBrains Mono", "SF Mono", Menlo, "Courier New", Courier, monospace;
+	--code-background: rgb(241 245 249);
 }
 
 @media(prefers-color-scheme: dark) {
@@ -54,6 +58,8 @@ a:hover {
 		--article-title-color: #e0e0e0;
 		--article-date-color: rgba(255, 255, 255, 0.5);
 		--table-cell-border-color: dimgray;
+
+		--code-background: rgb(38 38 38);
 	}
 }
 
@@ -156,8 +162,8 @@ pre {
 }
 
 code, pre {
-	font-family: "SF Mono", Menlo, "Courier New", Courier, monospace;
-	font-size: 1em;
+	font-family: var(--font-mono);
+	font-size: 0.9em;
 	-webkit-hyphens: none;
 }
 
@@ -409,7 +415,8 @@ a.footnote:hover,
 		margin-bottom: 64px;
 		padding-left: 48px;
 		padding-right: 48px;
-		font-family: -apple-system;
+		font-family: var(--font-article);
+		
 	}
 
 	.smallText {
@@ -451,8 +458,9 @@ a.footnote:hover,
 	}
 
 	pre {
-		border: 1px solid var(--accent-color);
-		padding: 10px;
+			border-radius: 5px;
+			background: var(--code-background);
+			padding: 10px;
 	}
 
 	.nnw-overflow table {
