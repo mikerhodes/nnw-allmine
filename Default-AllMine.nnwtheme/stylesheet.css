@@ -44,7 +44,7 @@ a:hover {
 	--article-date-color: rgba(0, 0, 0, 0.3);
 	--table-cell-border-color: lightgray;
 	
-	--font-article: "IBM Plex Sans", "Source Sans Pro", -apple-system;
+	--font-article: "IBM Plex Sans", Seravek, "Source Sans Pro", -apple-system;
 	--font-mono: "JetBrains Mono", "SF Mono", Menlo, "Courier New", Courier, monospace;
 	--code-background: rgb(241 245 249);
 }
@@ -358,6 +358,8 @@ a.footnote:hover,
 		margin-bottom: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
+
+		font-family: var(--font-article);
 
 		word-break: break-word;
 		-webkit-hyphens: auto;
