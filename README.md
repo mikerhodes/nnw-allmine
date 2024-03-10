@@ -18,9 +18,21 @@ The screenshot shows both IBM Plex Sans and JetBrains Mono:
 
 ## Install
 
+### macOS
+
 To copy to your NetNewsWire theme folder, you can either double click the theme
 file (`Default-AllMine.nnwtheme`) or run:
 
 ```
 make install
 ```
+
+### iOS
+
+I'm not sure of a nice way to install on iOS.
+
+What I have been doing is copying the `Default-AllMine.nnwtheme` file into
+iCloud Drive and then installing into NetNewsWire on iOS using the
+[Add a theme manually][1] instructions.
+
+[1]: https://netnewswire.com/help/ios/6.1/en/themes.html
