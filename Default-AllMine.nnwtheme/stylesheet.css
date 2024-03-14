@@ -360,6 +360,7 @@ a.footnote:hover,
 		padding-right: 20px;
 
 		font-family: var(--font-article);
+		/*font-size: 18px;*/
 
 		word-break: break-word;
 		-webkit-hyphens: auto;
@@ -370,7 +371,7 @@ a.footnote:hover,
 		color-scheme: light dark;
 		font: -apple-system-body;
 		/* The font-size is replaced at runtime by the dynamic type size */
-		font-size: [[font-size]]px;
+		font-size: calc([[font-size]]px + 1px);
 		--primary-accent-color: #086AEE;
 		--secondary-accent-color: #086AEE;
 		--block-quote-border-color: rgba(8, 106, 238, 0.75);
